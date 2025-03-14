@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V8 & Turbo Classics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: white;
+        }
+        header {
+            background: #222;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: url('showroom-image.jpg') no-repeat center center/cover;
+        }
+        .hero h1 {
+            font-size: 40px;
+            background: rgba(0, 0, 0, 0.6);
+            display: inline-block;
+            padding: 20px;
+        }
+        .inventory {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .car-card {
+            background: #222;
+            margin: 15px;
+            padding: 15px;
+            width: 300px;
+            text-align: center;
+        }
+        .car-card img {
+            width: 100%;
+            height: auto;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>V8 & Turbo Classics - Where Muscle Meets Precision</header>
+    <nav>
+        <a href="#inventory">Inventory</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="hero">
+        <h1>Classic Mustangs & Iconic Porsches</h1>
+    </div>
+    
+    <section id="inventory" class="inventory">
+        <div class="car-card">
+            <img src="mustang.jpg" alt="Classic Mustang">
+            <h3>1967 Ford Mustang Fastback</h3>
+            <p>V8 Power - Fully Restored</p>
+        </div>
+        <div class="car-card">
+            <img src="porsche.jpg" alt="Classic Porsche">
+            <h3>1991 Porsche 911 Turbo (964)</h3>
+            <p>Turbocharged Legend - Low Mileage</p>
+        </div>
+    </section>
+    
+    <section id="services">
+        <h2 style="text-align:center;">Our Services</h2>
+        <p style="text-align:center;">Restorations | Custom Builds | Import Assistance</p>
+    </section>
+    
+    <section id="contact" style="text-align:center; padding: 30px;">
+        <h2>Contact Us</h2>
+        <p>Email: sales@v8turboclassics.com</p>
+        <p>Phone: +32 123 456 789</p>
+    </section>
+    
+    <footer class="footer">
+        &copy; 2025 V8 & Turbo Classics. All Rights Reserved.
+    </footer>
+</body>
+</html>
